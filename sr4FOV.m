@@ -20,6 +20,6 @@ elseif abs(FOV - 360) < eps
 end
 
 % 计算立体角（解析解）
-omega = 2*pi*(1 - cos(FOV/360*pi));
+omega = 2*pi*(1 - cos(deg2rad(FOV)/2));
 
 end
